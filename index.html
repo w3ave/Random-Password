@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <span id="h1Contrast"><br> random password</span></h1>
+        <p> Never use an insecure password again.</p>
+        <button onclick="generatePassword()" id="generate-pw">Generate passwords</button>
+        <button class="toggle-btn" id="toggle-numbers-btn"  onclick="toggleNumbers()" title="Toggle the inclusion of numbers in the generated password">Numbers ON</button>
+        <button class="toggle-btn" id="toggle-special-btn"  onclick="toggleSpecial()" title="Toggle the inclusion of special characters in the generated password">Special ON</button>'
+        <div id="password-one" class ="password-div" onclick = "copy()"></div>
+        <div id="password-two" class ="password-div" onclick = "copyTwo()"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
