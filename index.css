@@ -150,13 +150,13 @@ cursor: pointer;
 
   #toggle-numbers-btn {
     left: 52px;
-    top: 342px;
+    top: 355px;
     width: 94px;
   }
 
   #toggle-special-btn {
     left: 153px;
-    top: 342px;
+    top: 355px;
     width: 90px;
   }
 
@@ -164,6 +164,35 @@ cursor: pointer;
 
 .toggle-btn:hover{
     background-color: #10B981;
-
     color: white;
+}
+
+#password-length{
+  border-radius: 6px;
+  background: #474747;
+  color: #10B981;
+  font-size: 12;
+  font-family: 'Inter';
+  
+}
+
+#length-label{
+  position: absolute;
+  left: 52;
+  top: 330px;
+  color: white;
+  font-family: 'Inter';
+  font-size: 12;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

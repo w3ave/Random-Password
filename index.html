@@ -9,6 +9,8 @@
         <button onclick="generatePassword()" id="generate-pw">Generate passwords</button>
         <button class="toggle-btn" id="toggle-numbers-btn"  onclick="toggleNumbers()" title="Toggle the inclusion of numbers in the generated password">Numbers ON</button>
         <button class="toggle-btn" id="toggle-special-btn"  onclick="toggleSpecial()" title="Toggle the inclusion of special characters in the generated password">Special ON</button>'
+        <label id="length-label">Password Length: <input type="number" id="password-length" min = "2" max = "22"></label>
+
         <div id="password-one" class ="password-div" onclick = "copy()"></div>
         <div id="password-two" class ="password-div" onclick = "copyTwo()"></div>
         <script src="index.js"></script>

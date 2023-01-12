@@ -48,6 +48,10 @@ function randomCharacter() {
 
 
 function generatePassword() {
+    let passwordLength = document.getElementById("password-length").value;
+    if (passwordLength >= 21 || passwordLength < 2){
+      window.alert("Please use a max of 20 characters and a minimum of 2!");
+    } else {
     randomPasswordOne = ""
     randomPasswordTwo = ""
     for (let i = 0; i < passwordLength; i++){
@@ -58,7 +62,8 @@ function generatePassword() {
     }
     passwordOne.textContent = randomPasswordOne
     passwordTwo.textContent = randomPasswordTwo
-}
+}}
+
 
 
 
